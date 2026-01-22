@@ -13,7 +13,7 @@ A high-contrast, "Hard Dark" implementation of the classic Gruvbox palette.
 ```lua
 {
     "amkillam/gruvbox-retro.nvim",
-    name = "gruvbox-retro",
+    priority = 1000,
     lazy = false,
     config = function()
         vim.cmd.colorscheme("gruvbox-retro")
